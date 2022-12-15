@@ -1,0 +1,45 @@
+body{
+    background-color: #fff;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 18px;
+}
+.box-wrapper{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #FF6464;
+    height: 220px;
+    border-radius: 18px;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.box{
+    text-align: center;
+    color: #fff;
+
+}
+.box-menu:hover a .box-wrapper{
+    background-color: #FF7D7D;
+}
+
+.breadcrumb-wrapper ul{
+    display: flex;
+    margin:0;
+    padding:0;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.breadcrumb-wrapper ul li{
+    list-style-type: none;
+}
+.breadcrumb-wrapper ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.breadcrumb-wrapper ul li:last-child a{
+    color: #777;
+    pointer-events: none;
+}
